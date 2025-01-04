@@ -2,7 +2,7 @@
 
 // Given an m x n integer matrix img representing the grayscale of an image, return the image after applying the smoother on each cell of it.
 
-class Solution {
+class ImageSoother {
     public int[][] imageSmoother(int[][] M) {
         final int m = M.length;
         final int n = M[0].length;
